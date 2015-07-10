@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DoublyLinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAQAAAAAQAMAAgAABAAAAACAAgAQABAAAQAA=</HashCode>
+      <FileName>DoublyLinkedList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NodoLista&lt;T&gt;" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAABAAAAAAAACAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NodoLista.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nodo&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAECAAAEAAAAABAAAAAAAA=</HashCode>
+      <FileName>Nodo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arbol&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAEAIABEAAAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Elemento" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elemento.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operando" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAA=</HashCode>
+      <FileName>Operando.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operacion" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Operacion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operador" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAA=</HashCode>
+      <FileName>Operador.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorUnario" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>OperadorUnario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorBinario" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>OperadorBinario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorTernario" Collapsed="true">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>OperadorTernario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorSuma" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperadorSuma.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorResta" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>OperadorResta.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorMultiplicar" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperadorMultiplicar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorDividir" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAA=</HashCode>
+      <FileName>OperadorDividir.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

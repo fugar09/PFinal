@@ -14,11 +14,13 @@ class DoublyLinkedList{
 
 private:
 	NodoLista<T> *inicio, *final;
+	int size;
 
 public:
 	DoublyLinkedList(){
 		inicio = NULL;
 		final = NULL;
+		size = 0;
 
 	}
 	~DoublyLinkedList() {
@@ -41,6 +43,7 @@ public:
 			temp->anterior = final;
 			final = temp;
 		}
+		size++;
 	}
 
 	void insertarInicio(T nodo){
@@ -54,20 +57,25 @@ public:
 			inicio->anterior = temp;
 			inicio = temp;
 		}
+		size++;
 	}
 	void insertar(T nodo, int index){
-		NodoLista<T>* temp1 = new NodoLista<T>(nodo);
-		NodoLista<T>* temp2 = new NodoLista<T>(nodo);
-		temp1 = inicio;
-		while (--index!=0) {
-			temp1 = temp1->siguiente;
+		if (isEmpty()) {
+			insertarInicio(nodo);
+		}else {
+			NodoLista<T>* temp1 = new NodoLista<T>(nodo);
+			NodoLista<T>* temp2 = new NodoLista<T>(nodo);
+			temp1 = inicio;
+			while (--index != 0) {
+				temp1 = temp1->siguiente;
+			}
+			temp2 = temp1->siguiente;
+			NodoLista<T>* nuevoNodo = new NodoLista<T>(nodo);
+			nuevoNodo->siguiente = temp2;
+			temp2->anterior = nuevoNodo;
+			temp1->siguiente = nuevoNodo;
+			nuevoNodo->anterior = temp1;
 		}
-		temp2 = temp1->siguiente;
-		NodoLista<T>* nuevoNodo = new NodoLista<T>(nodo);
-		nuevoNodo->siguiente = temp2;
-		temp2->anterior = nuevoNodo;
-		temp1->siguiente = nuevoNodo;
-		nuevoNodo->anterior = temp1;
 	}
 	void remover(int index) {
 		NodoLista<T>* actual = inicio;
@@ -79,18 +87,28 @@ public:
 		delete borrar;
 		actual->siguiente = temp;
 		temp->anterior = actual;
+		size--;
 	}
 
 	bool isEmpty(){
 		return this->final == NULL && this->inicio == NULL;
 	}
 	T getElemento(int index) {
-		NodoLista<T>* actual = inicio;
-		while (--index != 0) {
-			actual = actual->siguiente;
+		if (index == 0) {
+			return inicio->actual;
 		}
-		NodoLista<T>* obtener = actual->siguiente;
-		return obtener->actual;
+		else {
+			NodoLista<T>* actual = inicio;
+			while (--index != 0) {
+				actual = actual->siguiente;
+			}
+			NodoLista<T>* obtener = actual->siguiente;
+			return obtener->actual;
+		}
+	}
+
+	int length() {
+		return this->size;
 	}
 
 

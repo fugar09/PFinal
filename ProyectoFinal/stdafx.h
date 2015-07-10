@@ -19,3 +19,8 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include <ostream>
+
+#include <string.h>
+#include <fstream>
+#include <stdlib.h>
