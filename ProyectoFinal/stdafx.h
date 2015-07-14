@@ -24,3 +24,4 @@
 #include <string.h>
 #include <fstream>
 #include <stdlib.h>
+#include <math.h>

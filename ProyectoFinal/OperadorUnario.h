@@ -5,6 +5,8 @@ class OperadorUnario :
 {
 public:
 	OperadorUnario();
+	virtual Operando * operar(DoublyLinkedList<Operando*>) = 0;
+	virtual char getSymbol() = 0;
 	virtual ~OperadorUnario();
 };
 
